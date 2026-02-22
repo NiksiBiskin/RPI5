@@ -17,6 +17,7 @@
             "density": 1.04,
             "diameter": 1.75,
             "empty_spool_weight": 140.0,
+            "remember_spool": false,
             "spool_id": 10,
             "color": "#fcf8f8",
             "weight": 1133.2139394506103,
@@ -26,7 +27,8 @@
             "filament_status_led": "#ff0000",
             "status": "None",
             "dist_hub": 165.0,
-            "td1_data": {}
+            "td1_data": {},
+            "endstops": "load,hub,tool_start,buffer_advance,buffer_trailing"
         },
         "lane2": {
             "name": "lane2",
@@ -45,6 +47,7 @@
             "density": 1.24,
             "diameter": 1.75,
             "empty_spool_weight": 140.0,
+            "remember_spool": false,
             "spool_id": null,
             "color": "",
             "weight": 0,
@@ -54,7 +57,8 @@
             "filament_status_led": "#ff0000",
             "status": "None",
             "dist_hub": 120.0,
-            "td1_data": {}
+            "td1_data": {},
+            "endstops": "load,hub,tool_start,buffer_advance,buffer_trailing"
         },
         "lane3": {
             "name": "lane3",
@@ -73,16 +77,18 @@
             "density": 1.08,
             "diameter": 1.75,
             "empty_spool_weight": 250.0,
+            "remember_spool": false,
             "spool_id": 6,
             "color": "#000000",
-            "weight": 76.06351601481323,
+            "weight": 76.04792773083784,
             "extruder_temp": 270,
             "runout_lane": null,
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": "None",
+            "status": "Loaded",
             "dist_hub": 110.0,
-            "td1_data": {}
+            "td1_data": {},
+            "endstops": "load,hub,tool_start,buffer_advance,buffer_trailing"
         },
         "lane4": {
             "name": "lane4",
@@ -101,6 +107,7 @@
             "density": 1.24,
             "diameter": 1.75,
             "empty_spool_weight": 140.0,
+            "remember_spool": false,
             "spool_id": null,
             "color": "",
             "weight": 0,
@@ -110,7 +117,8 @@
             "filament_status_led": "#ff0000",
             "status": "None",
             "dist_hub": 165.0,
-            "td1_data": {}
+            "td1_data": {},
+            "endstops": "load,hub,tool_start,buffer_advance,buffer_trailing"
         }
     },
     "system": {
@@ -120,7 +128,7 @@
         "num_extruders": 1,
         "extruders": {
             "extruder": {
-                "lane_loaded": ""
+                "lane_loaded": null
             }
         },
         "bypass": {
